@@ -1,8 +1,8 @@
 {
-    "name": "VolumeExtension",
+    "name": "MuteOrUnmuteExtension",
     "version": "1.0",
     "manifest_version": 2,
-    "description": "Açik sekmelerdeki sesleri düzenlemenizi koalylaştiran bir yardimci",
+    "description": "Açik sekmelerdeki sesleri düzenlemenizi kolaylaştiran bir yardimci",
     "browser_action": {
         "default_icon": "icon.png",
         "default_popup": "index.html"
