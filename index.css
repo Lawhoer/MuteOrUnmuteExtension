@@ -1,0 +1,47 @@
+/* popup.css */
+body {
+  background-color: #333;
+    width: 200px;
+  }
+
+  h2{
+    background-color: aqua;
+    margin: 0;
+  }
+  
+  #tabs-list {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+  }
+  .box{
+    display: block;
+    margin: 3px;
+    padding-bottom: 10px;
+  }
+
+  #button {
+    background-color: #ffffff; /* Beyaz arka plan rengi */
+    color: #333; /* Metin rengi */
+    border: 2px solid #333; /* Kenarlık rengi */
+    border-radius: 5px; /* Köşelerin yuvarlatılması */
+    padding: 5px 20px; /* İç içe boşluklar (yukarı-aşağı, sol-sağ) */
+    text-align: center; /* Metni ortala */
+    text-decoration: none; /* Metin altı çizgisi kaldırma */
+    display: inline-block; /* Blok öğeyi içindeki içeriği düzenleme */
+    font-size: 16px; /* Metin boyutu */
+    cursor: pointer; /* Farenin üzerine gelince el simgesi gösterme */
+  }
+  
+  .button:hover {
+    background-color: #333; /* Fare üzerine gelindiğinde arka plan rengini değiştirme */
+    color: #ffffff; /* Fare üzerine gelindiğinde metin rengini değiştirme */
+  }
+
+  ::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  
