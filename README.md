@@ -1,4 +1,4 @@
-# VolumeExtension
+# MuteOrUnmuteExtension
 A program that is only needed by those with too many noisy tabs, and even they wouldn't want to use it – a ridiculous program :)
 
 https://github.com/Lawhoer/VolumeExtension/assets/98128167/26f843d2-56a0-428b-9565-0515a52269e8
