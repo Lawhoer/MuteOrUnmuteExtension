@@ -8,3 +8,4 @@ https://github.com/Lawhoer/VolumeExtension/assets/98128167/26f843d2-56a0-428b-95
 
 ### REMEMBER!!
 - When you add this, adjust the sound settings only from this panel manually, do not right-click to mute on the tabs. It goes against the purpose of the program, and it gets confusing, so stick to that :)
+- And don't forget, this panel doesn't stop the videos on the tabs, it only mutes the sound of that tab. Unfortunately, Chrome doesn't grant much power beyond muting the tab's sound, unlucky :(
