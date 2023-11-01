@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         function updateMuteButton() {
           const muteButton = document.createElement("button");
           muteButton.id="button";
-          muteButton.innerText = isMuted ? "Ses Ac" : "Ses Kapat";
+          muteButton.innerText = isMuted ? "Unmute" : "Mute";
   
           tabDiv.innerHTML = `
             <strong class="box">${tab.title}</strong>
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
           muteButton.addEventListener("click", function () {
             isMuted = !isMuted;
             chrome.storage.local.set({ [muteKey]: isMuted });
-            muteButton.innerText = isMuted ? "Ses Ac" : "Ses Kapat";
+            muteButton.innerText = isMuted ? "Unmute" : "Mute";
             chrome.tabs.update(tab.id, { muted: isMuted });
           });
 
